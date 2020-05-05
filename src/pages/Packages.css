@@ -1,20 +1,44 @@
+#packages {
+    background: url('../assets/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1.2rem;
+}
+
 #packages .mycard {
     padding : 1.4rem;
     border: 1px solid black;
     width: 80%;
     margin: 1.4rem auto;
     box-shadow: 10px 10px 14px ;
-    background-color: #E7F8EB;
+    background-color: rgba(231, 248, 235);
+    opacity: 0.8;
 }
 
 #packages .mycard:hover, 
 #packages .mycard:active {
     cursor: pointer;
     border: 2px solid #E74292;
+    opacity: 1;
+}
+
+#packages .mycard:first-child {
+    position: relative;
+    margin-top: 65px;
+}
+
+#packages .icon-container {
+    position: absolute;
+    top : 15px;
+    right: 15px;
+    box-shadow: 1px 1px 10px #F3B431;
 }
 
 #packages .active {
-    background-color: #194729;
+    background-color: rgba(25, 71, 41);
+    opacity: 0.8;
 }
 
 #packages .active h2 {

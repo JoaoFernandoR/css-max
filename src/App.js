@@ -20,7 +20,6 @@ const App = () => {
   return (
     <React.Fragment>
       <Header setPage={setPage}/>
-      <div className="teste"></div>
       {renderPages()}
       <Footer />
     </React.Fragment>
