@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+// Css
+import './App.css'
+// Componentes
+import Header from './components/Header'
+import Footer from './components/Footer'
+// Pages 
+import Main from './pages/Main'
+import Packages from './pages/Packages'
 
-function App() {
+const App = () => {
+
+  const [page, setPage] = useState(0)
+
+  const renderPages = () => {
+    if (page === 0 ) return <Main />
+    if (page === 1) return <Packages />
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <Header setPage={setPage}/>
+      <div className="teste"></div>
+      {renderPages()}
+      <Footer />
+    </React.Fragment>
+  )
 }
 
-export default App;
+
+export default App

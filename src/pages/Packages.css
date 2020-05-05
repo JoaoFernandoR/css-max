@@ -1,0 +1,32 @@
+#packages .mycard {
+    padding : 1.4rem;
+    border: 1px solid black;
+    width: 80%;
+    margin: 1.4rem auto;
+    box-shadow: 10px 10px 14px ;
+    background-color: #E7F8EB;
+}
+
+#packages .mycard:hover, 
+#packages .mycard:active {
+    cursor: pointer;
+    border: 2px solid #E74292;
+}
+
+#packages .active {
+    background-color: #194729;
+}
+
+#packages .active h2 {
+    color: white;
+}
+
+#packages h3 {
+    color: rgb(136,141,142);
+}
+
+#packages p {
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: white;
+}

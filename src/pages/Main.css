@@ -1,0 +1,49 @@
+.bg-image {
+    height: calc(100vh - 61px);
+    background-image: url(../assets/freedom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 3rem;
+    color: #47535E;
+}
+
+#reasons .row {
+    height: 60vh;
+    background-color: rgb(255,51,93, 0.9);
+}
+
+#reasons ul {
+    display : flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0px;
+}
+#reasons li {
+    width: 32%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#reasons li div {
+    width: 140px;
+    height: 140px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+}
+
+#reasons li p {
+    margin: 40px 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
