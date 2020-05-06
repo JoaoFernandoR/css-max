@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    filter: grayscale(60%);
     padding: 1.2rem;
 }
 
@@ -26,7 +27,7 @@
 
 #packages .mycard:first-child {
     position: relative;
-    margin-top: 65px;
+    margin-top: 64px;
 }
 
 #packages .icon-container {

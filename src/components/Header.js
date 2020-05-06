@@ -19,7 +19,7 @@ const Header = props => {
                     <a href="/#" onClick={() => setPage(1)}>Packages</a>
                 </li>
                 <li>
-                    <a href="/#">Customers</a>
+                    <a href="/#" onClick={() => setPage(2)}>Customers</a>
                 </li>
                 <li className="active_link">
                     <a href="/#">Start Hosting</a>

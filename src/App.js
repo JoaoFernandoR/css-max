@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 // Pages 
 import Main from './pages/Main'
 import Packages from './pages/Packages'
+import Customers from './pages/Customers'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
   const renderPages = () => {
     if (page === 0 ) return <Main />
     if (page === 1) return <Packages />
+    if (page === 2) return <Customers />
   }
 
   return (
