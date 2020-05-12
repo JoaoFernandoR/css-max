@@ -1,0 +1,29 @@
+.mymodal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;    
+}
+
+#mymodal button {
+    margin: 0px 1rem;
+}
+
+#mymodal .negative {
+    background-color: red;
+}
+
+@media(min-width : 790px) {
+    .mymodal {
+        max-width: 730px;
+        left: calc(50% - 300px);
+    }
+}

@@ -1,17 +1,17 @@
 #items {
     display: flex;
-    height: 500px;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 1.3rem;
 }
 
 .item {
     width: 33.3%;
-    padding: 20px;
+    padding: 1.4rem;
     background-color: #1BCA9B;
     border: 1px solid black;
-    margin: 10px 30px;
+    margin: 0.7rem 1.8rem;
     text-align: center;
     border: none;
     box-shadow: 5px 8px 18px black;
@@ -38,9 +38,9 @@
 }
 
 #items button {
-    padding : 8px 16px;
+    padding : 0.5rem 1rem;
     border-radius: 5px;
-    margin: 20px 0px;
+    margin: 1.3rem 0px;
     background-color: green;
     border: none;
     color: white;
@@ -60,8 +60,8 @@
     background-color: #09e64f;
     color:white;
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.7);
-    margin: 10px 0px;
-    padding : 8px;
+    margin: 0.7rem 0px;
+    padding : 0.5rem;
     border-radius: 8px;
     font-weight: bold;
     word-break: break-all;

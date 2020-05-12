@@ -1,16 +1,17 @@
-header {
+.my_nav_bar {
     background-color: #7CEC9F;
     position: fixed;
     top: 0;
+    left : 0;
     width: 100%;
-    z-index: 1;
+    z-index: 200;
 }
 
 .brand {
     font-weight: bold;
     font-size: 1.2rem;
     text-align: center;
-    padding-left: 0.8rem;
+    padding-left: 12px;
 }
 
 .brand a {
@@ -22,29 +23,29 @@ header {
     text-decoration: none;
 }
 
-header ul {
+.nav_list {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    padding-right: 1.5em;
+    padding-right: 20px;
     margin: 0px;
     align-items: center;
 }
 
-header li {
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+.nav_list_items {
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
-header nav a {
+.nav_link {
     color : #47535E;
-    margin: 1.2em;
+    margin: 18px;
     padding-bottom: 2px;
     font-weight: bold;
 }
 
-header nav a:hover, 
-header nav a:active {
+.nav_link:hover, 
+.nav_link:active {
     color: #1BCA9B;
     border-bottom: solid 2px #1BCA9B;
     text-decoration: none;
@@ -55,12 +56,12 @@ header nav a:active {
     background-color: white;
     color: #E74292;
     border: none;
+    text-decoration: none;
 }
 
 .active_link a {
     color : white;
     background-color: #E74292;
     border-radius: 8px;
-    padding: 0.5em 1em;
+    padding: 8px 16px;
 }
-

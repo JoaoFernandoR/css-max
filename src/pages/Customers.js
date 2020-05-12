@@ -7,7 +7,7 @@ const Customers = () => {
     return (
     <section id="customers">
         <div className="testimonial" id="customer-1">
-            <div className="testimonial__image-container1"></div>
+            <div className="testimonial__image-container1"> <div className="image-1"></div></div>
             <div className="testimonial__info">
                 <h1 className="testimonial__name">Mike Statham</h1>
                 <h2 className="testimonial__subtitle">Founder of

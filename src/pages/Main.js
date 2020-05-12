@@ -8,20 +8,20 @@ import Reasons from '../components/Reasons'
 
 const Main = () => {
     return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-12 bg-image">
-          <h1 className="title_main"> Get the freedom you deserve </h1>
+    <section id="main">
+      <div className="col-12 bg-image">
+          <h1 className="title_main"> 
+            Get the freedom you deserve 
+          </h1>
         </div>
-        <div className="title text-dark">
-            <p> Choose your plan </p>
-        </div>
-        <Items />
-        <Reasons />
-      </div>
-     
-    </div>
+      <div className="title text-dark">
+          <p> Choose your plan </p>
+      </div>        
+      <Items />
+      <Reasons />
+    </section>
     )
 }
 
 export default Main
+

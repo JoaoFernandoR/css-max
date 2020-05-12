@@ -27,7 +27,7 @@
 
 #packages .mycard:first-child {
     position: relative;
-    margin-top: 64px;
+    margin-top: 4.5rem;
 }
 
 #packages .icon-container {

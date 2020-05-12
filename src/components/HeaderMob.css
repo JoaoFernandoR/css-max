@@ -1,0 +1,54 @@
+.my_mobile_bar {
+    position: fixed;
+    top: 0;
+    left : 0;
+    width : 10%;
+    height: 100%;
+    background-color: #7CEC9F;
+    z-index: 200
+}
+
+.mob_list {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.brand_mobile {
+    padding : 20px;
+    display : flex;
+    flex-direction: column;
+}
+
+#mymobilenav nav a {
+    color : #47535E;
+    margin: 18px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+#mymobilenav nav a:hover, 
+#mymobilenav nav a:active {
+    color: #1BCA9B;
+    border-bottom: solid 2px #1BCA9B;
+    text-decoration: none;
+}
+
+#mymobilenav .active_link a:hover,
+#mymobilenav .active_link a:active {
+    background-color: white;
+    color: #E74292;
+    border: none;
+}
+
+#mymobilenav .active_link a {
+    color : white;
+    background-color: #E74292;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
