@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import './Items.css'
 // Componentes
 import Modal from './Modal'
+import StyledButton from '../shared/StyledButton'
 
 const Items = () => {
 
@@ -26,7 +27,7 @@ const Items = () => {
                 <li>Basic Support</li>
             </ul>
             <div>
-                <button onClick={handleModal}>CHOOSE PLAN</button>
+                <StyledButton onClick={handleModal}> CHOOSE PLAN </StyledButton>  
             </div>
         </div>
         <div className='item'>
@@ -41,7 +42,7 @@ const Items = () => {
                 <li>Plus Support</li>
             </ul>
             <div>
-                <button onClick={handleModal}>CHOOSE PLAN</button>
+                <StyledButton onClick={handleModal}> CHOOSE PLAN </StyledButton>  
             </div>
         </div>
         <div className='item'>
@@ -55,7 +56,7 @@ const Items = () => {
                 <li>Priority Support</li>
             </ul>
             <div>
-                <button onClick={handleModal}>CHOOSE PLAN</button>
+                <StyledButton onClick={handleModal}> CHOOSE PLAN </StyledButton>  
             </div>
         </div>
     </section>

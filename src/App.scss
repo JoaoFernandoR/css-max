@@ -1,11 +1,17 @@
 /* font-family: 'Manrope', sans-serif;
 font-family: 'Montserrat', sans-serif; 
+font-family: 'Sacramento', cursive;
 
 Código compartilhado para os componentes 
 */
 
+$mainColor : #7CEC9F;
+$secondaryColor : #47535E;
+$hoverColor : #1BCA9B;
+$borderDefault : 1px solid black;
+
 * {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mybackdrop {
@@ -15,5 +21,5 @@ Código compartilhado para os componentes
     height: 100%;
     top : 0;
     left : 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(56, 43, 43, 0.5);
 }

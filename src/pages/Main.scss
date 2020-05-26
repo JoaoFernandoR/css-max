@@ -1,0 +1,40 @@
+@import '../App.scss';
+
+.bg-image {
+    height: calc(100vh - 61px);
+    background-image: linear-gradient(to top, rgba(201, 158, 40, 0.6), transparent), url(../assets/freedom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 3rem;
+    color: $secondaryColor;
+}
+
+.title_main {
+    bottom: 6%;
+    right: 5%;
+    position: absolute;
+    color: white;
+    font-family: 'Sacramento', cursive;
+}
+
+@media (min-width : 40rem) {
+    .title_main {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width : 568px) {
+    .title {
+        padding-top: 2rem;
+    }
+}

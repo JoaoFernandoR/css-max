@@ -1,6 +1,6 @@
 import React from 'react'
 // Css
-import './Main.css'
+import './Main.scss'
 // Components
 import Items from '../components/Items'
 import Reasons from '../components/Reasons'

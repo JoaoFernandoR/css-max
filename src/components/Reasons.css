@@ -28,3 +28,22 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media (max-width : 567px) {
+    #reasons ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+    }
+    #reasons li {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (min-width : 568px) and (max-width : 768px) {
+    #items {
+        display: flex;
+        flex-direction: column;
+    }
+}

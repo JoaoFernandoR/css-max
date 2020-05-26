@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-    <footer id="footer" className="d-flex">
+    <footer id="footer">
         <div className="icon_container">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="icon">
                 <FontAwesomeIcon icon={['fab', 'facebook']} size='2x'/>
@@ -20,9 +20,7 @@ const Footer = () => {
             <a href="/#" className="icon">
                 <FontAwesomeIcon icon={['fab', 'google']} size='2x'/>
             </a>
-        </div>
-        <nav>
-            <ul>
+            <ul className="footer_info">
                 <li>
                     <a href="/#">Support</a>
                 </li>
@@ -30,7 +28,7 @@ const Footer = () => {
                     <a href="/#">Terms of Use</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </footer>
     )
 }

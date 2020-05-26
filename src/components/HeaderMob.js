@@ -16,7 +16,7 @@ const HeaderMob = props => {
                 <a href="/#">
                 <FontAwesomeIcon icon="coffee"/> <span> uHost</span>
                 </a>
-            </div>
+            </div> 
             <ul className="mob_list">
                 <li onClick={() => setPage(1)}>
                     <a className= "nav_link" href="/#">Packages</a>
@@ -24,7 +24,7 @@ const HeaderMob = props => {
                 <li onClick={() => setPage(2)}>
                     <a className= "nav_link" href="/#">Customers</a>
                 </li>
-                <li className="active_link">
+                <li className="active_link" onClick={() => setPage(3)}>
                     <a href="/#">Start Hosting</a>
                 </li>
             </ul>

@@ -1,6 +1,6 @@
 import React from 'react'
 // Css
-import './Customers.css'
+import './Customers.scss'
 
 
 const Customers = () => {
