@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 // Css
-import './Items.css'
+import './Items.scss'
 // Componentes
 import Modal from './Modal'
 import StyledButton from '../shared/StyledButton'
@@ -31,7 +31,7 @@ const Items = () => {
             </div>
         </div>
         <div className='item'>
-        <h2 className="highlighted">RECOMMENDED</h2>
+            <h2 className="highlighted">RECOMMENDED</h2>
             <h2>PLUS</h2>
             <h3 className="recom_price">$29/month</h3>
             <h4>For ambitious projects.</h4>

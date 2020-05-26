@@ -17,7 +17,7 @@ const Header = props => {
     return (
     <header className="my_nav_bar">
         {(mobileBar) ? <HeaderMob handleMobileBar={handleMobileBar} setPage={setPage}/> : null }
-        <div className="brand brand_mob">
+        <div className="brand brand_mob" style={{'display' : (mobileBar) ? 'none' : null}}>
             <a href="/#" onClick={handleMobileBar}>
             <FontAwesomeIcon icon="bars" size='2x'/> 
             </a>
@@ -27,19 +27,17 @@ const Header = props => {
             <FontAwesomeIcon icon="coffee"/> uHost
             </a>
         </div>
-        <nav className="w-100">
-            <ul className="nav_list">
-                <li className="nav_list_items">
-                    <a className= "nav_link" href="/#" onClick={() => setPage(1)}>Packages</a>
-                </li>
-                <li className="nav_list_items">
-                    <a className= "nav_link" href="/#" onClick={() => setPage(2)}>Customers</a>
-                </li>
-                <li className="active_link">
-                    <a className= "nav_link" href="/#" onClick={() => setPage(3)}>Start Hosting</a>
-                </li>
-            </ul>
-        </nav>
+        <ul className="nav_list">
+            <li className="nav_list_items">
+                <a className= "nav_link" href="/#" onClick={() => setPage(1)}>Packages</a>
+            </li>
+            <li className="nav_list_items">
+                <a className= "nav_link" href="/#" onClick={() => setPage(2)}>Customers</a>
+            </li>
+            <li className="active_link">
+                <a className= "nav_link" href="/#" onClick={() => setPage(3)}>Start Hosting</a>
+            </li>
+        </ul>
     </header>
     )
 }

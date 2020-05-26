@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // Css
-import './HeaderMob.css'
+import './HeaderMob.scss'
 
 
 const HeaderMob = props => {
