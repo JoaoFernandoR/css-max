@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 85%;
     padding: 1.3rem;
+    margin: 0px auto;
 
     li {
         list-style: none;
@@ -42,7 +43,7 @@
     padding: 1.4rem;
     background-color: #1BCA9B;
     border: 1px solid black;
-    margin: 0.7rem 1.8rem;
+    margin: 0.7rem 1rem;
     text-align: center;
     border: none;
     box-shadow: 5px 8px 18px black;
@@ -74,5 +75,11 @@
     }
     .item {
         width: 440px;
+    }
+}
+
+@media (min-width : 769px) and (max-width : 1024px) {
+    .item {
+        margin: 0.7rem 0.3rem;
     }
 }

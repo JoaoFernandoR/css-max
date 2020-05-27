@@ -13,7 +13,7 @@ const Packages = () => {
             <p>Benefit from increased storage and faster support to ensure that your mission-critical data and applications
                 are always available!</p>
             <div className="icon-container">
-                <FontAwesomeIcon icon={['fab', 'wolf-pack-battalion']} size='3x' color="#F3B431"/>
+                <FontAwesomeIcon icon={['fab', 'wolf-pack-battalion']} size='5x' color="#F3B431"/>
             </div>
         </div>
         <div className="mycard">

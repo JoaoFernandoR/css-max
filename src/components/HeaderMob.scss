@@ -9,6 +9,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    animation-name: mobBar;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
 }
 
 .mob_list {
@@ -25,7 +28,20 @@
 }
 
 .brand_mobile {
-    display : flex;
-    flex-direction: column;
     padding : 20px;
+}
+
+.active_link_mobile a{
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    border-radius: 80%;
+}
+
+@keyframes mobBar {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 150px
+    }
 }
