@@ -1,21 +1,23 @@
 import React from 'react'
 // Css
-import './Modal.css'
+import styles from './Modal.module.css'
+// Components
+import StyledButton from '../shared/StyledButton'
 
 const Modal = props => {
 
     const {handleModal} = props
 
     return (
-    <section id="mymodal">
+    <section>
         <div className="mybackdrop" onClick={handleModal}> </div>
-        <div className='mymodal'>
+        <div className={styles.mymodal}>
             <h2>
                 Want to continue ?
             </h2>
-            <div className='modal_buttons'>
-                <button> yes </button>
-                <button className="negative" onClick={handleModal}> no </button>
+            <div>
+                <StyledButton style={{"margin-right" : '2rem'}}> yes </StyledButton>
+                <StyledButton backColor="red" hovBack="red" onClick={handleModal}> no </StyledButton>
             </div>
         </div>
     </section>

@@ -63,7 +63,7 @@
     }
 
     a:hover,
-    a:active {
+    a:active{
         background-color: white;
         color: #E74292;
         border: none;
@@ -71,7 +71,15 @@
     }
 }
 
+.nav_list .active_link:hover {
+    animation-name: wiggle;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
 
+
+/* MEDIA QUERIES */
 
 @media (max-width : 768px) {
     .nav_list {
@@ -81,5 +89,22 @@
 @media (min-width : 769px) {
     .brand_mob {
         display : none
+    }
+}
+
+/* KEYFRAMES */
+
+@keyframes wiggle {
+    0% {
+        transform: rotateZ(0deg)
+    }
+    25% {
+        transform: rotateZ(5deg)
+    }
+    75% {
+        transform: rotateZ(-5deg)
+    }
+    100% {
+        transform: rotateZ(0deg)
     }
 }

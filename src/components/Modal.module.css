@@ -8,22 +8,27 @@
     padding: 16px;
     left: 15%;
     top: 30%;
-    box-sizing: border-box;
-    transition: all 0.3s ease-out;
-    text-align: center;    
-}
-
-#mymodal button {
-    margin: 0px 1rem;
-}
-
-#mymodal .negative {
-    background-color: red;
+    text-align: center;
+    animation-name: modal_animation;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
 }
 
 @media(min-width : 790px) {
     .mymodal {
         max-width: 730px;
         left: calc(50% - 300px);
+    }
+}
+
+
+@keyframes modal_animation {
+    from {
+        opacity: 0;
+        transform: rotateX(90deg);  
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0deg);
     }
 }

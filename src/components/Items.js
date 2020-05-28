@@ -15,7 +15,7 @@ const Items = () => {
 
     return (
     <section id="items">
-        { (turnModal) ? <Modal handleModal={handleModal}/> : null}
+        {(turnModal) ? <Modal handleModal={handleModal} /> : null}
         <div className='item'>
             <h2>FREE</h2>
             <h3>$0/month</h3>

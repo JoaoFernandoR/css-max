@@ -17,20 +17,24 @@
     box-shadow: 10px 10px 14px ;
     background-color: rgb(231, 248, 235);
     opacity: 0.8;
+
+    &:hover, 
+    &:active {
+        cursor: pointer;
+        border: 2px solid #E74292;
+        opacity: 1;
+        animation-name: up-little;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+    }
+    
+    &:first-child {
+        position: relative;
+        margin-top: 4.5rem;
+        overflow: hidden;
+    }
 }
 
-.mycard:hover, 
-.mycard:active {
-    cursor: pointer;
-    border: 2px solid #E74292;
-    opacity: 1;
-}
-
-.mycard:first-child {
-    position: relative;
-    margin-top: 4.5rem;
-    overflow: hidden;
-}
 
 .icon-container {
     position: absolute;
@@ -58,7 +62,7 @@ p {
     background-color: white;
 }
 
-} /* FIM DO #PACKAGES */
+}
 
 
 @media (max-width : 568px) {
@@ -78,5 +82,14 @@ p {
 @media (min-width : 1100px) {
     #packages .mycard {
         width: 700px;
+    }
+}
+
+@keyframes up-little {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
     }
 }
