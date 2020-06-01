@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // Css
-import './App.scss'
+import styles from './App.module.scss'
 // Componentes
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -22,11 +22,11 @@ const App = () => {
   }
 
   return (
-    <React.Fragment>
+    <div className={styles.body}>
       <Header setPage={setPage}/>
       {renderPages()}
       <Footer />
-    </React.Fragment>
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 // Css
-import styles from './Modal.module.css'
+import styles from './Modal.module.scss'
 // Components
 import StyledButton from '../shared/StyledButton'
 

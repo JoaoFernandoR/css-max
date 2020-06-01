@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-// Bootstrap 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
+// CSS
+import './index.css'
 // FontAwesome
 import { library } from '@fortawesome/fontawesome-svg-core'                                                                                                                   
 import { faCoffee, faCheckSquare, faBars} from '@fortawesome/free-solid-svg-icons'

@@ -1,4 +1,4 @@
-@import '../App.scss';
+@import '../App.module.scss';
 
 .my_nav_bar {
     background-color: $mainColor;
@@ -20,6 +20,7 @@
 
     a {
         color: $secondaryColor;
+        text-decoration: none;
     }
     
     a:hover {
@@ -45,6 +46,7 @@
     margin: 18px;
     padding-bottom: 2px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav_link:hover, 

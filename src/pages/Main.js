@@ -1,6 +1,6 @@
 import React from 'react'
 // Css
-import './Main.scss'
+import styles from './Main.module.scss'
 // Components
 import Items from '../components/Items'
 import Reasons from '../components/Reasons'
@@ -8,18 +8,16 @@ import Reasons from '../components/Reasons'
 
 const Main = () => {
     return (
-    <section id="main">
-      <div className="col-12 bg-image">
-          <h1 className="title_main"> 
+    <div>
+      	<div className={styles.bg_image}>
+          <h1> 
             Get the freedom you deserve 
           </h1>
         </div>
-      <div className="title text-dark">
-          <p> Choose your plan </p>
-      </div>        
+		<h2 className={styles.h2}> Choose your plan </h2>
       <Items />
       <Reasons />
-    </section>
+    </div>
     )
 }
 

@@ -1,15 +1,14 @@
 import React from 'react'
-// Css
-import './Reasons.css'
+import styles from './Reasons.module.scss'
 
 
 const Reasons = () => {
     return (
-    <section id="reasons">
-        <h1 className="text-center p-5 title text-white">Many Good Reasons to Stick Around</h1>
+    <div className={styles.reasons}>
+        <h2>Many Good Reasons to Stick Around</h2>
         <ul>
             <li>
-            <svg viewBox="0 0 512 512">
+                <svg viewBox="0 0 512 512">
                             <path style={{'fill':'#F09B24'}} d="M344,248h-32V112c0-4.418-3.582-8-8-8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32  c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h40c4.418,0,8-3.582,8-8V264h32c4.418,0,8-3.582,8-8  S348.418,248,344,248z"
                             />
                             <path style={{'fill':'#8E9AA9'}} d="M264,64H8c-4.418,0-8,3.582-8,8v80c0,4.418,3.582,8,8,8h256c4.418,0,8-3.582,8-8V72  C272,67.582,268.418,64,264,64z"
@@ -101,7 +100,7 @@ const Reasons = () => {
                 <p>3,857,000 Trusting Customers</p>
             </li>
             <li>
-            <svg viewBox="0 0 512 512">
+                <svg viewBox="0 0 512 512">
                             <path style={{'fill':'#69788D'}} d="M248,0H8C3.582,0,0,3.582,0,8v496c0,4.418,3.582,8,8,8h240c4.418,0,8-3.582,8-8V8  C256,3.582,252.418,0,248,0z"
                             />
                             <path style={{'fill':'#56677E'}} d="M24,504V8c0-4.418,3.582-8,8-8H8C3.582,0,0,3.582,0,8v496c0,4.418,3.582,8,8,8h24  C27.582,512,24,508.418,24,504z"
@@ -149,7 +148,7 @@ const Reasons = () => {
                 <p>99.999% Uptime Guarantee</p>
             </li>
             <li>
-            <svg viewBox="0 0 512 512">
+                <svg viewBox="0 0 512 512">
                             <path style={{'fill':'#8E9AA9'}} d="M168,200c-4.418,0-8,3.582-8,8v120h-17.376c-3.302-9.311-12.194-16-22.624-16  c-13.234,0-24,10.767-24,24s10.766,24,24,24c10.429,0,19.321-6.689,22.624-16H168c4.418,0,8-3.582,8-8V208  C176,203.582,172.418,200,168,200z"
                             />
                             <path style={{'fill':'#FFDB66'}} d="M120,328c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S124.411,328,120,328z" />
@@ -185,8 +184,8 @@ const Reasons = () => {
                         </svg>
                 <p>Lightning Fast CDN</p>
             </li>
-            </ul>
-    </section>
+        </ul>
+    </div>
     )
 }
 

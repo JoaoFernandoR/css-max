@@ -1,0 +1,40 @@
+.reasons {
+    background-color: rgba(255,51,93, 0.9);
+    width: 100%;
+
+    h2 {
+        text-align: center;
+        padding: 2.5rem 0px;
+        color: white;
+    }
+
+    ul {
+        display : flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0px auto;
+        max-width: 900px;
+
+        @media (max-width: 567px) {
+            display: flex;
+            flex-direction: column;
+            padding: 0rem;
+        }
+    }
+    
+    li {
+        text-align: center;
+    }
+
+    li svg {
+        width: 140px;
+        height: 140px;
+    }
+    
+    li p {
+        margin: 40px 0px;
+        font-weight: bold;
+        color: white;
+    }
+
+}
