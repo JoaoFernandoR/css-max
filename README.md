@@ -1,68 +1,88 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Cabeçalhos, h1 to h6 --> 
+# HEADING 1
+## HEADING 2
+### HEADING 3
 
-## Available Scripts
+<!-- Italicos -->
+*This text* is italic
 
-In the project directory, you can run:
+_This text_ is italic
 
-### `npm start`
+<!-- Negritos -->
+**This text** is strong
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+__This text__ is strong
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- Riscado -->
+~~Este Texto~~ está riscado
 
-### `npm test`
+<!-- Linha Horizontal -->
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+___
+___
+---
+---
 
-### `npm run build`
+<!-- Mostrar caractere especial -->
+\*Mostrando caractere\*
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+\* Mostrando
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<!-- Blockquote -->
+> This is a quote
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Links -->
+[Traversy Media](http://www.traversymedia.com "Isto é um título")
 
-### `npm run eject`
+---
+<!-- UL -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Item 1
+* Item 2
+* Item 3 
+    * Nested item 1
+    * Nested item 2
+---
+<!-- OL -->
+1. item 1
+1. item 2
+1. item 3
+---
+<!-- INLINE CODEBLOCKS -->
+`<p> Isto é um parágrafo </p>`
+---
+<!-- Imagens -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Markdown logo](https://markdown-here.com/img/icon256.png)
+---
+<!-- Github Markdowns -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- Code Blocks  -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+    npm install
+    npm install @types react-router-navigation
+```
 
-## Learn More
+```javascript
+    function somar(num1, num2){
+        return num1 + num2
+    }
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    somar(5, 8)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    /* Expect 13 as output */
+```
+---
+<!-- TABELAS -->
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+---
+<!-- TASKS LISTS -->
+* [x] Task 1
+* [x] Task 2
+* [] Task 3
+---
